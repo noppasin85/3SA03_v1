@@ -6,7 +6,7 @@ const prepareStateFromWord = (given_word) => {
     let word = given_word.toUpperCase()
     let chars = _.shuffle(Array.from(word))
     return {
-        word,
+       
         chars,
         attempt: 1,
         guess: '',
