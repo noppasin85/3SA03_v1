@@ -9,7 +9,7 @@ export default function CharacterCard(props) {
         }
         setActive(true)
  }
- const className = `card ${active ? 'activeCard': ''}`
+ const className = `cord ${active ? 'activeCard': ''}`
 
  const attemptRef = useRef(props.attempt);
  useEffect(() => {
